@@ -1,0 +1,10 @@
+Instructions:
+1. Run ./laradock.sh to install laradock
+2. Edit .env file in laradock folder
+   # Point to the path of your applications code on your host
+     APP_CODE_PATH_HOST=../src
+3. Edit laradock/apache2/sites/default.apache.conf, update DocumentRoot
+   to where the application folder is setup.
+4. Run ./laravel.sh to setup the laravel app
+
+
